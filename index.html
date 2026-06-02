@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YAMI'LAS BAR'S</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- MENU -->
+<nav>
+  <div class="logo">YAMI'LAS BAR'S</div>
+
+  <div class="menu">
+    <a href="#inicio">Inicio</a>
+    <a href="#menu">Menú</a>
+    <a href="#video">Ubicación</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+</nav>
+
+<!-- PORTADA -->
+<section class="hero" id="inicio">
+
+  <div class="overlay">
+
+    <h1>YAMI'LAS BAR'S</h1>
+
+    <p class="intro">
+      Bienvenidos a Yami’las Bar’s, el lugar donde cada noche se llena de alegría,
+      buena música y momentos inolvidables. 🌙✨
+    </p>
+
+
+    <p class="intro">
+      Disfruta del mejor servicio, buena música y un espacio pensado
+      para que vivas momentos especiales. 🍻💙
+    </p>
+
+    
+
+    <p class="reservados">
+      Contamos con permisos autorizados y áreas reservadas para brindar
+      mayor comodidad, seguridad y una mejor experiencia a todos nuestros clientes.
+    </p>
+<div class="propietarios">
+    <h3>Propietarios</h3>
+    <p>Gil Ramon Burgos Hernandez</p>
+    <p>Yojana Guadalupe Torres Nuñez</p>
+</div>
+    <div class="botones">
+      <a href="#menu" class="btn neon">Ver Menú</a>
+
+    </div>
+
+  </div>
+
+</section>
+ 
+  </div>
+
+</section>
+
+<!-- BOTONES -->
+<section id="menu">
+
+  <h2 class="titulo">Nuestro Menú</h2>
+
+  <div class="categorias" id="menu-principal">
+
+    <button class="categoria-btn" onclick="mostrar('refrescos')">
+      🥤 Refrescos
+    </button>
+
+    <button class="categoria-btn" onclick="mostrar('vinos')">
+      🍷 Vinos Internacionales
+    </button>
+
+    <button class="categoria-btn" onclick="mostrar('jugos')">
+      🧃 Jugos y Energizantes
+    </button>
+
+    <button class="categoria-btn" onclick="mostrar('churros')">
+      🍫 Churros
+    </button>
+
+    <button class="categoria-btn" onclick="mostrar('cigarros')">
+      🚬 Cigarrillos
+    </button>
+
+    <button class="categoria-btn" onclick="mostrar('alcohol')">
+      🍾 Alcohol
+    </button>
+
+    <button class="categoria-btn" onclick="mostrar('sopas')">
+      🍜 Sopas
+    </button>
+
+    <button class="categoria-btn" onclick="mostrar('piquete')">
+      🌶️ Piquete
+    </button>
+
+    <button class="categoria-btn" onclick="mostrar('ron')">
+      🥃 Ron
+    </button>
+
+    <button class="categoria-btn" onclick="mostrar('tequila')">
+      🍸 Tequila
+    </button>
+
+    <button class="categoria-btn" onclick="mostrar('cervezas')">
+      🍺 Cervezas
+    </button>
+
+    <button class="categoria-btn" onclick="mostrar('interior')">
+      🏠 Interior del Bar
+    </button>
+    <a href="#inicio" class="btn-inicio">🏠 Volver al Inicio</a>
+  
+
+  </div>
+
+<div class="cards">
+
+    <div id="refrescos" class="seccion-menu">
+
+<h2>🥤 Refrescos</h2>
+
+<img src="img/Refrescos.jpg">
+
+<p class="precio">
+L. 75, 55, 45, 38, 25
+</p>
+
+<button class="pedido-btn">
+Realizar Pedido
+</button>
+
+<button onclick="volver()" class="volver-btn">
+⬅ Volver al Menú
+</button>
+
+</div>
+
+    <div id="vinos" class="seccion-menu">
+
+<h2> Vinos Internacionales</h2>
+
+<img src="img/Vinos internacionales.jpg">
+
+<p class="precio">
+L. _1000, 1200, 1100
+</p>
+<a href="https://wa.me/50496233486?text=Hola,%20quiero%20realizar%20un%20pedido" target="_blank">
+    <button class="pedido-btn">
+        Realizar Pedido
+    </button>
+</a>
+
+<button onclick="volver()" class="volver-btn">
+⬅ Volver al Menú
+</button>
+  </div> 
+
+<div id="jugos" class="seccion-menu">
+
+<h2>jugos y energizantes</h2>
+
+<img src="img/energizantes y jugos.jpg">
+
+<p class="precio">
+Lps. 25,30,15,10
+</p>
+
+<a href="https://wa.me/50496233486?text=Hola,%20quiero%20realizar%20un%20pedido" target="_blank">
+    <button class="pedido-btn">
+        Realizar Pedido
+    </button>
+</a>
+
+<button onclick="volver()" class="volver-btn">
+⬅ Volver al Menú
+</button>
+</div>
+   
+    <div id="churros" class="seccion-menu">
+
+<h2> Churros</h2>
+
+<img src="img/churros en variedad.jpg">
+
+<p class="precio">
+Lps. 10,5,8,4
+</p>
+
+<a href="https://wa.me/50496233486?text=Hola,%20quiero%20realizar%20un%20pedido" target="_blank">
+    <button class="pedido-btn">
+        Realizar Pedido
+    </button>
+</a>
+
+<button onclick="volver()" class="volver-btn">
+⬅ Volver al Menú
+</button>
+
+</div>
+    <div id="cigarros" class="seccion-menu">
+
+<h2></h2>
+
+<img src="img/Cigarrillos de variedad.jpg">
+
+<p class="precio">
+Lps. paquete 100, Lps. Medio paquete 50 Lps.unidad 7
+
+</p>
+
+<a href="https://wa.me/50496233486?text=Hola,%20quiero%20realizar%20un%20pedido" target="_blank">
+    <button class="pedido-btn">
+        Realizar Pedido
+    </button>
+</a>
+
+<button onclick="volver()" class="volver-btn">
+⬅ Volver al Menú
+</button>
+
+</div>
+
+    <div id="alcohol" class="seccion-menu">
+
+<h2>🍾 Alcohol</h2>
+
+<img src="img/alcohol Accesible.jpg">
+
+<p class="precio">
+L. 30,60,25,10
+</p>
+
+<a href="https://wa.me/50496233486?text=Hola,%20quiero%20realizar%20un%20pedido" target="_blank">
+    <button class="pedido-btn">
+        Realizar Pedido
+    </button>
+</a>
+
+<button onclick="volver()" class="volver-btn">
+⬅ Volver al Menú
+</button>
+
+</div>
+    <div id="sopas" class="seccion-menu">
+
+<h2> 🍜 Sopas</h2>
+
+<img src="img/sopas laky y mani.jpg">
+
+<p class="precio">
+L. 20,10
+</p>
+
+<a href="https://wa.me/50496233486?text=Hola,%20quiero%20realizar%20un%20pedido" target="_blank">
+    <button class="pedido-btn">
+        Realizar Pedido
+    </button>
+</a>
+
+<button onclick="volver()" class="volver-btn">
+⬅ Volver al Menú
+</button>
+
+</div>
+    <div id="piquete" class="seccion-menu">
+
+<h2> 🌶️ Piquete</h2>
+
+<img src="img/Piquete.jpg">
+
+<p class="precio">
+L.50,220
+</p>
+
+<a href="https://wa.me/50496233486?text=Hola,%20quiero%20realizar%20un%20pedido" target="_blank">
+    <button class="pedido-btn">
+        Realizar Pedido
+    </button>
+</a>
+
+<button onclick="volver()" class="volver-btn">
+⬅ Volver al Menú
+</button>
+
+</div>
+
+    <div id="ron" class="seccion-menu">
+
+<h2> 🥃 Ron</h2>
+
+<img src="img/ron.jpg">
+
+<p class="precio">
+L. 220,250,380,500,600
+</p>
+
+<a href="https://wa.me/50496233486?text=Hola,%20quiero%20realizar%20un%20pedido" target="_blank">
+    <button class="pedido-btn">
+        Realizar Pedido
+    </button>
+</a>
+
+<button onclick="volver()" class="volver-btn">
+⬅ Volver al Menú
+</button>
+
+</div>
+
+   <div id="tequila" class="seccion-menu">
+
+<h2> 🍸 Tequila</h2>
+
+<img src="img/Tequila.jpeg">
+
+<p class="precio">
+L. 500
+</p>
+
+<a href="https://wa.me/50496233486?text=Hola,%20quiero%20realizar%20un%20pedido" target="_blank">
+    <button class="pedido-btn">
+        Realizar Pedido
+    </button>
+</a>
+
+<button onclick="volver()" class="volver-btn">
+⬅ Volver al Menú
+</button>
+
+</div>
+    <div id="cervezas" class="seccion-menu">
+
+<h2> 🍺 Cervezas</h2>
+
+<img src="img/Cerveza Ultra.jpg">
+
+<p class="precio">
+L. 27,30,40,45,35,120
+</p>
+
+<a href="https://wa.me/50496233486?text=Hola,%20quiero%20realizar%20un%20pedido" target="_blank">
+    <button class="pedido-btn">
+        Realizar Pedido
+    </button>
+</a>
+
+<button onclick="volver()" class="volver-btn">
+⬅¡ Volver al Menú
+</button>
+
+</div>
+
+   <div id="interior" class="seccion-menu">
+
+<h2>🏠 Interior del Bar</h2>
+
+<img src="img/Interior del Bar.jpg">
+
+
+<button onclick="volver()" class="volver-btn">
+⬅ Volver al Menú
+</button>
+
+</div>
+  </div>
+
+</section>
+
+<section id="video">
+
+  <h2 class="titulo">📍 Cómo Llegar</h2>
+
+  <div class="video-box">
+
+    <video  controls>
+      <source src="video/llegada.mp4" type="video/mp4">
+    </video>
+
+  </div>
+
+</section>
+  </div>
+
+</section>
+  </div>
+
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+
+  <h2 class="titulo">Contacto</h2>
+
+  <p class="telefono">
+    📞 +504 9623-3486
+  </p>
+
+<section class="creadoras">
+
+  <h2>Creadoras</h2>
+
+  <p>Elsy Cano</p>
+  <p>Dayareth Hernandez</p>
+
+</section>
+<footer>
+  © 2026 YAMI'LAS BAR'S
+</footer>
+
+<script>
+
+function mostrar(categoria){
+
+document.getElementById("menu-principal").style.display="none";
+
+let secciones=document.querySelectorAll(".seccion-menu");
+
+secciones.forEach(sec=>{
+sec.style.display="none";
+});
+
+document.getElementById(categoria).style.display="block";
+
+}
+
+function volver(){
+
+document.getElementById("menu-principal").style.display="flex";
+
+let secciones=document.querySelectorAll(".seccion-menu");
+
+secciones.forEach(sec=>{
+sec.style.display="none";
+});
+
+function volver() {
+
+  document.getElementById("menu-principal").style.display = "flex";
+
+  let secciones = document.querySelectorAll(".seccion-menu");
+
+  secciones.forEach(sec => {
+    sec.style.display = "none";
+  });
+
+  setTimeout(() => {
+    document.getElementById("menu-principal").scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+  }, 100);
+
+}
+}
+
+</script>
+<audio id="musica" loop>
+  <source src="cancion.mp3" type="audio/mpeg">
+</audio>
+<script>
+
+const musica = document.getElementById("musica");
+
+// 🎵 inicia con el primer clic en la página
+document.addEventListener("click", function iniciarMusica(){
+  musica.play();
+  document.removeEventListener("click", iniciarMusica);
+});
+
+</script>
+
+</body>
